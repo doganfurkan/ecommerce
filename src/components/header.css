@@ -1,0 +1,146 @@
+:root{
+    --navLinkColor: #ddd;
+}
+
+header#mainHeader{
+    padding:1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#mainHeader h1#logo span{
+    font-size:1rem
+}
+
+#logo a{
+    text-decoration: none;
+    color:#000
+}
+
+#logo a:hover,
+#logo a:focus{
+    text-decoration: underline;
+}
+
+#openMenu{
+    border:1px solid #000;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#mainHeader nav{
+    position: absolute;
+    right:1rem;
+    top:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:.5rem;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+    transition: 0.75s;
+}
+
+#mainHeader nav.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+#mainHeader nav a{
+    display: flex;
+    gap:.5rem;
+    padding:.25rem .25rem .25rem .75rem;
+    background: #fff;
+    border:1px solid #000;
+    align-items: center;
+    border-radius: 100vw;
+    color:#000;
+    text-decoration: none;
+    font-weight: 500;
+    transform: translateY(-3rem);
+    transition: .25s;
+    transition-delay: var(--navDelay);
+    opacity: 0;
+    visibility: hidden;
+}
+
+#mainHeader nav.active a{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0;
+}
+
+#mainHeader nav a span{
+    background: linear-gradient(90deg, #000 0% 50%,var(--navLinkColor) 50% 100%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    color:#fff;
+    width:2rem;
+    height:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .25s;
+}
+
+#mainHeader nav a:nth-child(1) span{
+    --navLinkColor: rgb(255, 180, 180);
+}
+
+#mainHeader nav a:nth-child(2) span{
+    --navLinkColor: rgb(255, 251, 180);
+}
+
+#mainHeader nav a:nth-child(3) span{
+    --navLinkColor: rgb(184, 255, 180);
+}
+
+#mainHeader nav a:nth-child(4) span{
+    --navLinkColor: rgb(180, 231, 255);
+}
+
+#mainHeader nav a:nth-child(5) span{
+    --navLinkColor: rgb(255, 180, 250);
+}
+
+#mainHeader nav a:hover span{
+    background-position: 100%;
+    color:#000
+}
+
+@media screen and (min-width:1100px){
+    header#mainHeader{
+        padding:1rem 2rem;
+    }
+
+    #mainHeader nav{
+        gap:.5rem;
+        position: static;
+        flex-direction: row;
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #mainHeader nav a{
+        transform: translate(0);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    #openMenu{
+        display: none;
+    }
+}

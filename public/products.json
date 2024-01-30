@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "productName": "Galaxy S23 FE - 128GB",
+    "brand": "Samsung",
+    "imageURL": "https://www.cumhuriyet.com.tr/Archive/2023/10/5/2126746/kapak_104655.jpg",
+    "description":"Unleash the future with the Samsung Galaxy S23 FE – a cutting-edge smartphone that seamlessly integrates innovation and style. Boasting a stunning Infinity-O display, the S23 FE captivates with vivid visuals and a responsive touch interface. Powered by advanced technology, it features a robust camera system that captures life's moments in breathtaking detail. The sleek design and premium build ensure a comfortable grip while exuding modern elegance. With lightning-fast processing, 5G connectivity, and a long-lasting battery, the Samsung Galaxy S23 FE is your gateway to a seamless, high-performance mobile experience. Elevate your digital lifestyle with the next-generation Samsung Galaxy S23 FE.",
+    "oldPrice": 24999.99,
+    "currentPrice": 21999.99,
+    "stars": 4.8,
+    "reviewCount": 268,
+    "options":[
+      {
+        "optionName":"Renk",
+        "optionValues":[
+          "Gri",
+          "Mor",
+          "Yeşil",
+          "Krem"
+        ]
+      },
+      {
+        "optionName":"Hafıza",
+        "optionValues":[
+          "128 GB",
+          "256 GB"
+        ]
+      }
+    ]
+  },
+  {
+    "id":2,
+    "productName": "Orange Tee - Classics",
+    "brand": "Adidas",
+    "imageURL": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/78ef5fe9c6604570a1cf6e28e90c62c1_9366/Adicolor_Classics_3-Stripes_Tee_Orange_IM2083_21_model.jpg",
+    "description":"Step into the nostalgic vibes of the past with our Retro Orange Adidas T-shirt. This classic piece effortlessly merges vintage aesthetics with the iconic Adidas style. The shirt boasts a vibrant orange hue, reminiscent of the bold and energetic fashion trends from yesteryears. Crafted from high-quality materials, it provides a comfortable fit while exuding a timeless charm. The Adidas logo, rendered in retro font, adds an extra touch of authenticity, making this tee a must-have for those who appreciate the fusion of retro flair and athletic fashion. Elevate your casual wardrobe with this throwback gem and let the vibrant orange hue be a statement of your individuality.",
+    "oldPrice": 1399,
+    "currentPrice": 1199,
+    "stars": 3.7,
+    "reviewCount": 46,
+    "options":[
+      {
+        "optionName":"Renk",
+        "optionValues":[
+          "Turuncu",
+          "Yeşil",
+          "Mavi",
+          "Beyaz",
+          "Siyah"
+        ]
+      },
+      {
+        "optionName":"Beden",
+        "optionValues":[
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ]
+  },
+  {
+    "id":3,
+    "productName": "Ipad Air - 128GB",
+    "brand": "Apple",
+    "imageURL": "https://photos5.appleinsider.com/gallery/57333-116668-000-lede-iPad-Air-xl.jpg",
+    "description":"Experience the perfect blend of power and portability with the iPad Air. This sleek and ultra-thin tablet redefines versatility, featuring a stunning Liquid Retina display that brings your content to life with vivid colors and crisp details. Packed with the mighty A14 Bionic chip, the iPad Air delivers lightning-fast performance, making multitasking a breeze. Whether you're sketching with the Apple Pencil, enjoying immersive entertainment, or tackling productivity tasks, the iPad Air effortlessly adapts to your needs. With its sleek design, advanced features, and feather-light feel, the iPad Air is the epitome of modern mobility and innovation.",
+    "oldPrice": 24999,
+    "currentPrice": 20999,
+    "stars":4.5,
+    "reviewCount": 93,
+    "options":[
+      {
+        "optionName":"Renk",
+        "optionValues":["Gri","Krem","Pembe","Mavi","Lavanta"]
+      },
+      {
+        "optionName":"Hafıza",
+        "optionValues":["64 GB","128 GB","256 GB"]
+      }
+    ]
+  },
+  {
+    "id":4,
+    "productName": "Air Jordan 1 Low G",
+    "brand": "Nike",
+    "imageURL": "https://www.golfdigest.com/content/dam/images/golfdigest/products/2022/3/3/20220302_NikeAirJordanLows1.jpg",
+    "description":"Step into a legendary realm of style with the Nike Air Jordan 1 Sneakers. These iconic kicks pay homage to basketball history while exuding a timeless and fashion-forward vibe. The classic silhouette, combined with the unmistakable Nike Swoosh, creates a statement look that stands the test of time. Crafted with premium materials for durability and comfort, these sneakers are not just shoes; they're a cultural icon. From the court to the streets, the Air Jordan 1s make a bold statement of individuality and a deep connection to sneaker history. Elevate your footwear game with the perfect fusion of heritage and contemporary cool.",
+    "oldPrice": 3899,
+    "currentPrice": 2799,
+    "stars":4.0,
+    "reviewCount":152,
+    "options":[
+      {
+        "optionName":"Renk",
+        "optionValues":[
+          "Mavi",
+          "Siyah",
+          "Kırmızı"
+        ]
+      },
+      {
+        "optionName":"Beden",
+        "optionValues":[
+          38,39,40,41,42,43,44,45,46
+        ]
+      }
+    ]
+  }
+]
