@@ -27,6 +27,7 @@ export default function Header() {
         onClick={() => {
           setMobileMenu(!mobileMenu);
         }}
+        aria-label="Menu Button"
       >
         <BsList />
       </button>
